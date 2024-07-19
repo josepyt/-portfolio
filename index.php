@@ -44,6 +44,25 @@ $conn->close();
     <title>Yusuf Türlü Portfolyo</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="web site icon" href="cv-icon.png">
+    <style>
+    .about .about-photo img {
+        margin-left: 135px;
+        margin-top: 65px;
+        margin-bottom: 65px;
+        border-radius: 50%;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border: 4px solid #373737;
+}
+
+    .about-text {
+        letter-spacing: 2px;
+        font-weight: 400;
+        line-height: 1.7;
+        font-size: 16px;
+    }
+    </style>
 </head>
 <body>
     <header>
@@ -71,13 +90,13 @@ $conn->close();
 
     <section id="about" class="about">
         <div class="container">
-            <h2>Hakkımda</h2>
+            <h1>Hakkımda</h1>
             <div class="about-content">
                 <div class="about-photo">
                     <img src="pp.jpg" alt="Profil Fotoğrafı">
                 </div>
                 <div class="about-text">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis assumenda natus officia optio, alias fugiat nihil atque necessitatibus minima sapiente?</p>
+                    <p>İstanbul Gelişim Üniversitesi Web Tasarım ve Kodlama Öğrencisiyim. Programcılık ve Fiziğe ilgiliyim. Ayrıca Felsefe ve Edebiyat dünyasına da meraklı olup şiirler de yazmaktayım. Araştırma, Yazılım Geliştirme ve Yeni Projeler Üretmeye Açığım. Hedefim Bölümümün Alanında Yeni Çalışmalar Ortaya Koymak.</p>
                 </div>
             </div>
         </div>
@@ -105,7 +124,7 @@ $conn->close();
 
     <section id="contact" class="contact">
         <div class="container">
-            <h2>İletişim</h2>
+            <h1>İletişim</h1>
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                 <input type="text" name="name" placeholder="İsim" required>
                 <input type="email" name="email" placeholder="E-posta" required>
