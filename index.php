@@ -77,7 +77,7 @@ $conn->close();
                     <img src="pp.jpg" alt="Profil Fotoğrafı">
                 </div>
                 <div class="about-text">
-                    <p>Kişisel ve profesyonel geçmişiniz hakkında kısa bilgi. Eğitim, sertifikalar ve hobileriniz hakkında bilgi verebilirsiniz.</p>
+                    <p>Hakkımda.</p>
                 </div>
             </div>
         </div>
