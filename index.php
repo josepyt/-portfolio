@@ -77,7 +77,7 @@ $conn->close();
                     <img src="pp.jpg" alt="Profil Fotoğrafı">
                 </div>
                 <div class="about-text">
-                    <p>Hakkımda.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis assumenda natus officia optio, alias fugiat nihil atque necessitatibus minima sapiente?</p>
                 </div>
             </div>
         </div>
