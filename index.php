@@ -113,9 +113,9 @@ $conn->close();
                 <button type="submit">Gönder</button>
             </form>
             <div class="social-media">
-                <a href="#" class="social-link"><img src="linkedin-logo.png" alt="LinkedIn"></a>
-                <a href="#" class="social-link"><img src="github-logo.png" alt="GitHub"></a>
-                <a href="#" class="social-link"><img src="instagram-logo.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/yusuf-t-296635232/" class="social-link"><img src="linkedin-logo.png" alt="LinkedIn"></a>
+                <a href="https://github.com/josepyt" class="social-link"><img src="github-logo.png" alt="GitHub"></a>
+                <a href="https://www.instagram.com/ffllyusuf/" class="social-link"><img src="instagram-logo.png" alt="Instagram"></a>
             </div>
             <?php
             if (isset($successMessage)) {
